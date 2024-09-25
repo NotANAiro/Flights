@@ -1,0 +1,138 @@
+.header{
+    
+    background-color: #0f4372;
+    
+    
+    color: #f3f3f3;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.header-text{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.top-main{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.search-bar{
+    margin-top: 10px;
+    display: flex;
+    flex: 1;
+}
+
+.search-bar input,select,button{
+    flex: 1;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.search-bar button{
+    margin-right: 0;
+    background-color: #0f4372;
+    color: white;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.center{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f3f3f3;
+}
+
+.filters{
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 15px;
+    flex: 1;
+    background-color: white;
+}
+
+.stops{
+    font-weight: ;
+}
+
+.price input{
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.price td{
+    padding: 10px;
+    text-align: start;
+}
+.flights{
+    flex: 3;
+    height: 600px;
+    background-color: white;
+}
+
+.airlines{
+    margin-top: 10px;
+}
+
+.flights-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.flights-table th,td{
+    padding: 20px;
+    text-align: center;
+}
+
+.flights-table thead tr{
+    color: #0f4372;
+    background-color: #f3f3f3;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+}
+
+.flights-table input[type=button]{
+    padding: 10px 25px;
+    border-radius: 7px;
+    background-color: #0f4372;
+    color: white;
+}
+
+.flights-table a{
+    color: #0f4372;
+}
+
+.flights-table p{
+    color: gray;
+    font-size: 12px;
+}
+
+.flights-name{
+    text-align: center;
+
+}
+
+.title{
+    color:#0f4372;
+}
